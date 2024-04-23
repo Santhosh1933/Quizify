@@ -2,6 +2,7 @@ import { View, Text } from "react-native";
 import React from "react";
 import { Stack } from "expo-router";
 import { RecoilRoot } from "recoil";
+import { Feather } from "@expo/vector-icons";
 
 export default function _layout() {
   return (
@@ -18,7 +19,6 @@ export default function _layout() {
             headerTitleAlign: "center",
             headerStyle: {
               backgroundColor: "#c026d3",
-            
             },
           }}
         />
